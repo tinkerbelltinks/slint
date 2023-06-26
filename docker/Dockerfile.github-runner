@@ -1,0 +1,35 @@
+# Copyright © SixtyFPS GmbH <info@slint.dev>
+# SPDX-License-Identifier: GPL-3.0-only OR LicenseRef-Slint-Royalty-free-1.0 OR LicenseRef-Slint-commercial
+
+FROM ubuntu:22.04
+
+# Base OS:
+RUN apt-get update && \
+    apt-get upgrade -y && \
+    apt-get install -y curl && \
+    rm -rf /var/cache/apt/archives/*.deb
+
+# Build env:
+RUN apt-get install -y build-essential clang clang-format doxygen libssl-dev && \
+    rm -rf /var/cache/apt/archives/*.deb
+
+# Rustup
+RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | \
+    bash -s -- -y --default-toolchain none
+
+# Install Node 16.x
+RUN curl -fsSL https://deb.nodesource.com/setup_16.x | bash - && \
+    apt-get install -y nodejs && \
+    rm -rf /var/cache/apt/archives/*.deb
+
+# Rust
+RUN ~/.cargo/bin/rustup set profile minimal && \
+    ~/.cargo/bin/rustup toolchain add stable && \
+    ~/.cargo/bin/rustup toolchain add 1.66 && \
+    ~/.cargo/bin/rustup default stable
+
+# Rust tools:
+RUN ~/.cargo/bin/cargo install mdbook && \
+    ~/.cargo/bin/cargo install mdbook-linkcheck && \
+    ~/.cargo/bin/cargo install cargo-bundle && \
+    ~/.cargo/bin/cargo install cargo-about
