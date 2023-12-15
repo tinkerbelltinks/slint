@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-14 03:16+0000\n"
+"POT-Creation-Date: 2023-12-15 03:16+0000\n"
 "PO-Revision-Date: 2023-06-06 13:52+0000\n"
 "Last-Translator: Olivier Goffart <olivier.goffart@slint-ui.com>, 2023\n"
 "Language-Team: French (https://app.transifex.com/slint/teams/170022/fr/)\n"
@@ -21,83 +21,41 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
 
-#: ui/pages/list_view_page.slint:9
+#: gallery.slint:14 gallery.slint:19
 #, fuzzy
-msgctxt "ListViewPage"
+msgctxt "App"
+msgid "Slint Widgets Gallery"
+msgstr "Gallerie de widgets "
+
+#: gallery.slint:20
+#, fuzzy
+msgctxt "Menu"
+msgid "Controls"
+msgstr "Contrôles"
+
+#: gallery.slint:20
+#, fuzzy
+msgctxt "Menu"
 msgid "ListView"
 msgstr "ListView"
 
-#: ui/pages/list_view_page.slint:10
+#: gallery.slint:20
 #, fuzzy
-msgctxt "ListViewPage"
-msgid ""
-"ListViews can be used to display a list of elements. The StandardListBox is "
-"like the default ListView just with a default text based definition of the "
-"visual items. Both can be imported from \"std-widgets.slint\""
-msgstr ""
-"Les ListView peuvent être utilisées pour montrer une liste d'élémment.  "
-"StandardListBx est comme une ListView par dafaut mes basé sur une définition "
-"des items visuels"
+msgctxt "Menu"
+msgid "TableView"
+msgstr "TableView"
 
-#: ui/pages/list_view_page.slint:25
+#: gallery.slint:20
 #, fuzzy
-msgctxt "ListViewPage"
-msgid "Item {}"
-msgstr "Élement {}"
+msgctxt "Menu"
+msgid "TextEdit"
+msgstr "TextEdit"
 
-#: ui/pages/list_view_page.slint:37 ui/pages/list_view_page.slint:38
-#: ui/pages/list_view_page.slint:39 ui/pages/list_view_page.slint:40
-#: ui/pages/list_view_page.slint:41 ui/pages/list_view_page.slint:42
-#: ui/pages/list_view_page.slint:43
+#: gallery.slint:20
 #, fuzzy
-msgctxt "ListViewPage"
-msgid "Lorem"
-msgstr "Lorem"
-
-#: ui/pages/list_view_page.slint:37 ui/pages/list_view_page.slint:38
-#: ui/pages/list_view_page.slint:39 ui/pages/list_view_page.slint:40
-#: ui/pages/list_view_page.slint:41 ui/pages/list_view_page.slint:42
-#: ui/pages/list_view_page.slint:43
-#, fuzzy
-msgctxt "ListViewPage"
-msgid "ipsum"
-msgstr "ipsum"
-
-#: ui/pages/list_view_page.slint:37 ui/pages/list_view_page.slint:38
-#: ui/pages/list_view_page.slint:39 ui/pages/list_view_page.slint:40
-#: ui/pages/list_view_page.slint:41 ui/pages/list_view_page.slint:42
-#: ui/pages/list_view_page.slint:43
-#, fuzzy
-msgctxt "ListViewPage"
-msgid "dolor"
-msgstr "dolor"
-
-#: ui/pages/list_view_page.slint:37 ui/pages/list_view_page.slint:38
-#: ui/pages/list_view_page.slint:39 ui/pages/list_view_page.slint:40
-#: ui/pages/list_view_page.slint:41 ui/pages/list_view_page.slint:42
-#: ui/pages/list_view_page.slint:43
-#, fuzzy
-msgctxt "ListViewPage"
-msgid "sit"
-msgstr "sit"
-
-#: ui/pages/list_view_page.slint:37 ui/pages/list_view_page.slint:38
-#: ui/pages/list_view_page.slint:39 ui/pages/list_view_page.slint:40
-#: ui/pages/list_view_page.slint:41 ui/pages/list_view_page.slint:42
-#: ui/pages/list_view_page.slint:43
-#, fuzzy
-msgctxt "ListViewPage"
-msgid "amet"
-msgstr "amet"
-
-#: ui/pages/list_view_page.slint:37 ui/pages/list_view_page.slint:38
-#: ui/pages/list_view_page.slint:39 ui/pages/list_view_page.slint:40
-#: ui/pages/list_view_page.slint:41 ui/pages/list_view_page.slint:42
-#: ui/pages/list_view_page.slint:43
-#, fuzzy
-msgctxt "ListViewPage"
-msgid "consetetur"
-msgstr "consetetur"
+msgctxt "Menu"
+msgid "About"
+msgstr "À Propos"
 
 #: ui/pages/page.slint:25
 #, fuzzy
@@ -375,38 +333,80 @@ msgctxt "ControlsPage"
 msgid "Content of tab 3"
 msgstr "Contenu du 3ᵉ conglet"
 
-#: gallery.slint:14 gallery.slint:19
+#: ui/pages/list_view_page.slint:9
 #, fuzzy
-msgctxt "App"
-msgid "Slint Widgets Gallery"
-msgstr "Gallerie de widgets "
-
-#: gallery.slint:20
-#, fuzzy
-msgctxt "Menu"
-msgid "Controls"
-msgstr "Contrôles"
-
-#: gallery.slint:20
-#, fuzzy
-msgctxt "Menu"
+msgctxt "ListViewPage"
 msgid "ListView"
 msgstr "ListView"
 
-#: gallery.slint:20
+#: ui/pages/list_view_page.slint:10
 #, fuzzy
-msgctxt "Menu"
-msgid "TableView"
-msgstr "TableView"
+msgctxt "ListViewPage"
+msgid ""
+"ListViews can be used to display a list of elements. The StandardListBox is "
+"like the default ListView just with a default text based definition of the "
+"visual items. Both can be imported from \"std-widgets.slint\""
+msgstr ""
+"Les ListView peuvent être utilisées pour montrer une liste d'élémment.  "
+"StandardListBx est comme une ListView par dafaut mes basé sur une définition "
+"des items visuels"
 
-#: gallery.slint:20
+#: ui/pages/list_view_page.slint:25
 #, fuzzy
-msgctxt "Menu"
-msgid "TextEdit"
-msgstr "TextEdit"
+msgctxt "ListViewPage"
+msgid "Item {}"
+msgstr "Élement {}"
 
-#: gallery.slint:20
+#: ui/pages/list_view_page.slint:37 ui/pages/list_view_page.slint:38
+#: ui/pages/list_view_page.slint:39 ui/pages/list_view_page.slint:40
+#: ui/pages/list_view_page.slint:41 ui/pages/list_view_page.slint:42
+#: ui/pages/list_view_page.slint:43
 #, fuzzy
-msgctxt "Menu"
-msgid "About"
-msgstr "À Propos"
+msgctxt "ListViewPage"
+msgid "Lorem"
+msgstr "Lorem"
+
+#: ui/pages/list_view_page.slint:37 ui/pages/list_view_page.slint:38
+#: ui/pages/list_view_page.slint:39 ui/pages/list_view_page.slint:40
+#: ui/pages/list_view_page.slint:41 ui/pages/list_view_page.slint:42
+#: ui/pages/list_view_page.slint:43
+#, fuzzy
+msgctxt "ListViewPage"
+msgid "ipsum"
+msgstr "ipsum"
+
+#: ui/pages/list_view_page.slint:37 ui/pages/list_view_page.slint:38
+#: ui/pages/list_view_page.slint:39 ui/pages/list_view_page.slint:40
+#: ui/pages/list_view_page.slint:41 ui/pages/list_view_page.slint:42
+#: ui/pages/list_view_page.slint:43
+#, fuzzy
+msgctxt "ListViewPage"
+msgid "dolor"
+msgstr "dolor"
+
+#: ui/pages/list_view_page.slint:37 ui/pages/list_view_page.slint:38
+#: ui/pages/list_view_page.slint:39 ui/pages/list_view_page.slint:40
+#: ui/pages/list_view_page.slint:41 ui/pages/list_view_page.slint:42
+#: ui/pages/list_view_page.slint:43
+#, fuzzy
+msgctxt "ListViewPage"
+msgid "sit"
+msgstr "sit"
+
+#: ui/pages/list_view_page.slint:37 ui/pages/list_view_page.slint:38
+#: ui/pages/list_view_page.slint:39 ui/pages/list_view_page.slint:40
+#: ui/pages/list_view_page.slint:41 ui/pages/list_view_page.slint:42
+#: ui/pages/list_view_page.slint:43
+#, fuzzy
+msgctxt "ListViewPage"
+msgid "amet"
+msgstr "amet"
+
+#: ui/pages/list_view_page.slint:37 ui/pages/list_view_page.slint:38
+#: ui/pages/list_view_page.slint:39 ui/pages/list_view_page.slint:40
+#: ui/pages/list_view_page.slint:41 ui/pages/list_view_page.slint:42
+#: ui/pages/list_view_page.slint:43
+#, fuzzy
+msgctxt "ListViewPage"
+msgid "consetetur"
+msgstr "consetetur"
