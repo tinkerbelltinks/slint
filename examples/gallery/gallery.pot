@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-03-06 03:15+0000\n"
+"POT-Creation-Date: 2024-03-07 03:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,11 +42,6 @@ msgstr ""
 #: ./gallery.slint:20
 msgctxt "Menu"
 msgid "About"
-msgstr ""
-
-#: ./ui/pages/page.slint:25
-msgctxt "Page"
-msgid "Widgets enabled"
 msgstr ""
 
 #: ./ui/pages/table_view_page.slint:22
@@ -120,6 +115,11 @@ msgstr ""
 #: ./ui/pages/text_edit_page.slint:25
 msgctxt "TextEditPage"
 msgid "No-Wrap"
+msgstr ""
+
+#: ./ui/pages/page.slint:25
+msgctxt "Page"
+msgid "Widgets enabled"
 msgstr ""
 
 #: ./ui/pages/controls_page.slint:10
